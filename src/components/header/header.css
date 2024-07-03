@@ -1,0 +1,76 @@
+ 
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #a1c4fd;
+    padding: 1rem 2rem;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .header-logo a {
+    color: #ffffff;
+    font-size: 24px;
+    font-weight: bold;
+    text-decoration: none;
+    transition: color 0.3s ease;
+  }
+  
+  .header-logo a:hover {
+    color: #c2e9fb;
+  }
+  
+  .header-nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+  }
+  
+  .header-nav li {
+    margin: 0 1rem;
+  }
+  
+  .header-nav a {
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 18px;
+    transition: color 0.3s ease;
+  }
+  
+  .header-nav a:hover {
+    color: #c2e9fb;
+  }
+  
+  .header-profile {
+    display: flex;
+    align-items: center;
+  }
+  
+  .header-profile a {
+    color: #ffffff;
+    text-decoration: none;
+    margin-right: 1rem;
+    font-size: 18px;
+    transition: color 0.3s ease;
+  }
+  
+  .header-profile a:hover {
+    color: #c2e9fb;
+  }
+  
+  .logout-button {
+    background: #ff6b6b;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background 0.3s ease;
+  }
+  
+  .logout-button:hover {
+    background: #ff8787;
+  }
+  

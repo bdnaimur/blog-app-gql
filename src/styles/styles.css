@@ -1,0 +1,81 @@
+body {
+    font-family: Arial, sans-serif;
+  }
+  
+  .login-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .login-container form {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+  }
+  
+  .login-container input,
+  .login-container button {
+    margin: 10px 0;
+    padding: 10px;
+    font-size: 16px;
+  }
+  
+  .dashboard-container {
+    padding: 20px;
+  }
+  
+  .blog-form-container {
+    margin-bottom: 20px;
+  }
+  
+  .blog-form-container form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .blog-form-container input,
+  .blog-form-container textarea,
+  .blog-form-container button {
+    margin: 10px 0;
+    padding: 10px;
+    font-size: 16px;
+  }
+  
+  .blog-post-container .blog-post {
+    border: 1px solid #ccc;
+    padding: 20px;
+    margin-bottom: 20px;
+  }
+  
+  .blog-post-container .blog-post h2 {
+    margin-top: 0;
+  }
+  
+  .blog-post-container .blog-post button {
+    margin-right: 10px;
+  }
+  
+  .notification-container {
+    position: fixed;
+    top: 10px;
+    right: 10px;
+  }
+  
+  .notification-bell {
+    font-size: 24px;
+    position: relative;
+  }
+  
+  .notification-count {
+    position: absolute;
+    top: -5px;
+    right: -10px;
+    background: red;
+    color: white;
+    border-radius: 50%;
+    padding: 5px 10px;
+    font-size: 14px;
+  }
+  
