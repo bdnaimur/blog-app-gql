@@ -25,6 +25,9 @@ import AdminHomePage from "./pages/AdminHomePage";
 const PrivateRoute = ({ children, role }) => {
   const { isAuthenticated, role: userRole } = useAuth();
 
+  const retrivedToken = localStorage.getItem('token')
+  
+
   console.log("isAuthenticated, role: userRole", isAuthenticated, userRole);
 
   if (!isAuthenticated) {
