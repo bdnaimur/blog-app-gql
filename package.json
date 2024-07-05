@@ -1,0 +1,27 @@
+{
+  "name": "blog_app_chatgpt",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node src/index.js",
+    "dev": "nodemon src/index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^3.1.4"
+  },
+  "dependencies": {
+    "apollo-server": "^3.13.0",
+    "bcrypt": "^5.1.1",
+    "dotenv": "^16.4.5",
+    "graphql": "^16.9.0",
+    "jsonwebtoken": "^9.0.2",
+    "mongodb": "^6.7.0",
+    "uuid": "^10.0.0"
+  }
+}
